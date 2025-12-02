@@ -1,4 +1,58 @@
-/* :root{
-    min-width: 400px;
-    max-width: 899px;
-} */
+.code808{
+    background-color: #808080;
+}
+
+.codegr{
+    background-image: linear-gradient(to top right, #f1ea01, #fff);
+}
+
+.codey{
+    background-color: #faffa2;
+}
+
+.codefb{
+    color: black;
+}
+
+.codefw{
+    color: white;
+}
+
+.codepmreset{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Codes */
+
+.himg{
+    background-image: url("../images/header_bg_desk-1920x200.png");
+    width: 100%;
+    height: 200px;
+    position: fixed;
+}
+
+.btnwid1{
+    width: 60%;
+}
+
+.logo{
+    width: 144px;
+    height: 144px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul>*{
+    padding: 20px;
+    font-size: 36px;
+    list-style: none;
+}
+
+ul{
+    padding: 0px 100px 0px 100px;
+}
+
+/* TEMP TESTING */

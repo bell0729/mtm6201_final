@@ -6,7 +6,7 @@
     background-image: linear-gradient(to top right, #f1ea01, #fff);
 }
 
-.codey{
+.codeby{
     background-color: #faffa2;
 }
 
@@ -23,6 +23,34 @@
     margin: 0px;
 }
 
+.btnwid1{
+    width: 60%;
+}
+
+.btnwid2{
+    width: 70%;
+}
+
+.codefont20px{
+    font-size: 20px;
+}
+
+.codealign2{
+    text-align: center;
+    position: relative;
+}
+
+.codealigncent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.codefont40px{
+    font-size: 40px;
+}
+
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Codes */
 
 .himg{
@@ -30,10 +58,6 @@
     width: 100%;
     height: 200px;
     position: fixed;
-}
-
-.btnwid1{
-    width: 60%;
 }
 
 .logo{
@@ -55,4 +79,57 @@ ul{
     padding: 0px 100px 0px 100px;
 }
 
+.teaminfo{
+    max-height: 75%;
+    min-width: 90%;
+}
+
+.adoptalign{
+    position: absolute;
+    top: 97%;
+    left: 71%;
+    transform: translate(-71%, -97%);
+}
+
+.adopttagalign{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+.ctatag{
+    position: absolute;
+    top: 3%;
+    left: 31%;
+    transform: translate(-31%, -3%);
+}
+
+.ctabtn{
+    position: absolute;
+    top: 25%;
+    left: 22%;
+    transform: translate(-22%, -25%);
+    padding: 0px 100px 0px 100px;
+}
+
+footer{
+    background-image: url("../images/footer_bg_desk-1920x417.png");
+    width: 100%;
+    height: 417px;
+    position: relative;
+}
+
+.footercont{
+    width: 100%;
+}
+
+.newsdoc{
+    padding: 0px 10px 0px 10px;
+    width: 350px;
+    height: 58%;
+    
+}
+
 /* TEMP TESTING */
+

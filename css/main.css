@@ -55,6 +55,14 @@
     max-width: 38%;
 }
 
+.codegrdull{
+    background-image: linear-gradient(to top right, #faffa2, #808080);
+}
+
+.codegrmid{
+    background-image: linear-gradient(to top right, #f1ea01, #808080);
+}
+
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Codes */
 
 .himg{
@@ -140,5 +148,47 @@ footer{
     height: 124px;
 }
 
-/* TEMP TESTING */
+@media screen and (max-width: 900px) {
+    #btns4sec{
 
+    }
+
+    #btns4{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 40rem;
+        padding: 10px;
+    }
+
+    #btns4>*{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 40%;
+        height: 50%;
+        margin: 10px;
+        align-content: center;
+    }
+
+    #btn1{
+        
+    }
+
+    #btn2{
+
+    }
+
+    #btn3{
+
+    }
+
+    #btn4{
+        background-image: url("../images/gr_tab-354x342.png");
+        background-position: center 0%;
+    }
+}
+
+
+
+/* TEMP TESTING */

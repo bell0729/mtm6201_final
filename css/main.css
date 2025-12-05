@@ -148,15 +148,43 @@ footer{
     height: 124px;
 }
 
+#disc{
+    background-image: url("../images/donate_info_bg_desk-1798x425.png");
+    width: 80.5%;
+    margin: auto;
+}
+
+#info{
+    margin: 20px;
+}
+
+#btn4{
+    background-image: url("../images/gr_desk-428x527.png");
+    background-position: center 0%;
+}
+
+#btns4sec{
+    width: 80.5%;
+}
+
+main>*{
+    margin: auto;
+}
+
+#btns4>*>*{
+    font-size: 36px;
+    padding: 10%;
+}
+
+#btns4>*{
+    margin: 10px;
+    width: 22%;
+    height: 527px;
+    align-content: center;
+}
+
 @media screen and (max-width: 900px) {
-    #btns4sec{
-
-    }
-
     #btns4{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
         height: 40rem;
         padding: 10px;
     }
@@ -164,29 +192,18 @@ footer{
     #btns4>*{
         display: flex;
         justify-content: center;
-        margin: auto;
         width: 40%;
         height: 50%;
-        margin: 10px;
-        align-content: center;
     }
 
-    #btn1{
-        
+    #btns4>*>*{
+        align-self: center;
+        padding: 10%;
     }
 
-    #btn2{
-
-    }
-
-    #btn3{
-
-    }
-
-    #btn4{
-        background-image: url("../images/gr_tab-354x342.png");
-        background-position: center 0%;
-    }
+    #disc{
+    background-image: url("../images/donate_info_bg_tab-772x843.png");
+}
 }
 
 
